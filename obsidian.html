@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Notes that link to each other.">
+<title>Obsidian-Specific Markdown | Markdown Syntax &amp; Document Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Space+Mono&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="bar">
+<a class="brand" href="index.html"><span class="logo" aria-hidden="true">M&#8595;</span> Markdown Hub <span class="spark" aria-hidden="true">&#10022;</span></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="headers-text.html">Basic Syntax</a></li><li><a href="code-blocks.html">Advanced Syntax</a></li><li><a href="gfm.html" aria-current="true">Flavors & Platforms</a></li><li><a href="editors.html">Workflows & Tools</a></li></ul></nav>
+</div></header>
+<div class="layout has-side">
+<aside class="sidebar" aria-label="Flavors & Platforms pages"><h2>🍰 🍰</h2><ul><li><a href="gfm.html">GitHub Flavored Markdown (GFM)</a></li><li><a href="obsidian.html" aria-current="page">Obsidian-Specific Markdown</a></li><li><a href="mdx.html">MDX (Markdown with Components)</a></li><li><a href="frontmatter.html">Frontmatter Explained</a></li></ul></aside>
+<main id="main">
+<article><p class="eyebrow">Flavors & Platforms</p><h1>Obsidian-Specific Markdown</h1><p class="lead">Notes that link to each other.</p>
+<pre><code>[[Another Note]]
+[[Another Note|display text]]
+![[embedded-note]]
+&gt; [!tip] Callout title
+&gt; Callout body text.
+#tag</code></pre>
+<ul><li>Wikilinks build a knowledge graph.</li><li>Callouts use <code>[!type]</code> inside a blockquote.</li><li>Properties live in YAML at the top of the note.</li></ul>
+</article>
+<nav class="pager" aria-label="Page navigation"><a href="gfm.html">&larr; GitHub Flavored Markdown (GFM)</a><a class="next" href="mdx.html">MDX (Markdown with Components) &rarr;</a></nav>
+</main>
+</div>
+<footer class="site-footer"><p>Made with &#128156; &middot; The Markdown Syntax &amp; Document Hub &middot; Nepomuceno, Paolo &middot; Manuduc, Lian &middot; Resurreccion, JM</p></footer>
+</body>
+</html>

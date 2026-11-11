@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Migrate existing content.">
+<title>Converting HTML to Markdown | Markdown Syntax &amp; Document Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Space+Mono&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="bar">
+<a class="brand" href="index.html"><span class="logo" aria-hidden="true">M&#8595;</span> Markdown Hub <span class="spark" aria-hidden="true">&#10022;</span></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="headers-text.html">Basic Syntax</a></li><li><a href="code-blocks.html">Advanced Syntax</a></li><li><a href="gfm.html">Flavors & Platforms</a></li><li><a href="editors.html" aria-current="true">Workflows & Tools</a></li></ul></nav>
+</div></header>
+<div class="layout has-side">
+<aside class="sidebar" aria-label="Workflows & Tools pages"><h2>🧰 🧰</h2><ul><li><a href="editors.html">Markdown Editors Review</a></li><li><a href="static-site-generators.html">Static Site Generators Overview</a></li><li><a href="pdf-conversion.html">Markdown to PDF Conversion</a></li><li><a href="keyboard-shortcuts.html">Keyboard Shortcuts for Markdown</a></li><li><a href="cheat-sheet.html">Cheat Sheet Download</a></li><li><a href="linting.html">Automated Linting for Markdown</a></li><li><a href="html-to-markdown.html" aria-current="page">Converting HTML to Markdown</a></li></ul></aside>
+<main id="main">
+<article><p class="eyebrow">Workflows & Tools</p><h1>Converting HTML to Markdown</h1><p class="lead">Migrate existing content.</p>
+<ul><li><strong>Pandoc</strong>: <code>pandoc -f html -t gfm page.html -o page.md</code></li><li><strong>Turndown</strong> (JavaScript library)</li><li><strong>html2text</strong> (Python)</li></ul>
+<p>Always review the output: complex layouts, inline styles and scripts do not convert cleanly.</p>
+</article>
+<nav class="pager" aria-label="Page navigation"><a href="linting.html">&larr; Automated Linting for Markdown</a></nav>
+</main>
+</div>
+<footer class="site-footer"><p>Made with &#128156; &middot; The Markdown Syntax &amp; Document Hub &middot; Nepomuceno, Paolo &middot; Manuduc, Lian &middot; Resurreccion, JM</p></footer>
+</body>
+</html>
